@@ -1,0 +1,1 @@
+c++ `sdl2-config --cflags` -I include/ImPlot -I include/stb -I include/ImGui -I ../.. -I include/ImGui/backends *.cpp include/ImGui/backends/imgui_impl_sdl.cpp include/ImGui/backends/imgui_impl_opengl3.cpp include/ImGui/imgui*.cpp include/stb/*.cpp include/ImPlot/*.cpp `sdl2-config --libs` -lGL -ldl -o main.o
